@@ -1,0 +1,18 @@
+name: PlayerLagReducer
+version: 1.1
+description: A plugin that vanishes players to reduce client side lag.
+author: Vik1395
+
+main: me.vik1395.LagReducer.MainVanish
+
+commands:
+  showall:
+    description: Unvanishes everyone only for the player who executes the command.
+    aliases: [show, sa]
+    permission: 
+    usage: /showall, /show, /sa
+  hideall:
+    description: Hides everyone online to the player.
+    aliases: [hide, ha]
+    permission: 
+    usage: /hideall, /hide, /ha
